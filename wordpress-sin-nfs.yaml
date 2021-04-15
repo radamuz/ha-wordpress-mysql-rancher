@@ -70,7 +70,8 @@ spec:
         name: wordpress
         env:
         - name: WORDPRESS_DB_HOST
-          value: mysql
+        #  value: mysql
+          value: mysql-0.mysql.prueba12
         - name: WORDPRESS_DB_PASSWORD
           value: ""
         ports:
